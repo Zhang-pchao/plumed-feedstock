@@ -5,9 +5,13 @@ Home: http://www.plumed.org/
 
 Package license: LGPL-3.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/deepmd-kit-recipes/plumed-feedstock/blob/master/LICENSE.txt)
 
 Summary: Free energy calculations in molecular systems
+
+Development: https://github.com/plumed/plumed2
+
+Documentation: https://www.plumed.org/doc
 
 PLUMED is an open source library for free energy calculations in
 molecular systems which works together with some of the most
