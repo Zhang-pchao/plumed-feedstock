@@ -4,3 +4,4 @@ channel_sources:
 - deepmodeling,defaults
 channel_targets:
 - deepmodeling main
+gsl: 2.4
