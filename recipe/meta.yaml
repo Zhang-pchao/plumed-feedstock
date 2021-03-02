@@ -1,5 +1,5 @@
 {% set name = "plumed" %}
-{% set version = "2.7.0" %}
+{% set version = "2.6.2" %}
 
 package:
   name: {{ name|lower }}
