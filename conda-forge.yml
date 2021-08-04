@@ -6,3 +6,4 @@ channels:
       - deepmodeling
 provider:
   linux_ppc64le: azure
+channel_priority: flexible
