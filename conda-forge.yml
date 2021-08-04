@@ -4,3 +4,5 @@ channels:
   targets:
     -
       - deepmodeling
+provider:
+  linux_ppc64le: azure
