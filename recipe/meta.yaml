@@ -8,6 +8,8 @@ package:
 source:
   url: https://github.com/plumed/plumed2/archive/v{{ version }}.tar.gz
   sha256: bbc2ef0cb08d404513b8b737c72333b6656389e15effd6a0f9ace2a5758c9a4a
+  patches:
+    - remove-xxd-dep.patch
 
 build:
   number: 0
@@ -24,8 +26,6 @@ requirements:
     - {{ compiler('cxx') }}
     - llvm-openmp  # [osx]
     - make
-# xxd is provided by package vim and used during build
-    - vim  # [linux]
   host:
     - gsl
     - libopenblas
