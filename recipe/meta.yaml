@@ -25,7 +25,7 @@ requirements:
     - llvm-openmp  # [osx]
     - make
 # xxd is provided by package vim and used during build
-    - vim  # [linux-64]
+    - vim  # [linux64]
   host:
     - gsl
     - libopenblas
