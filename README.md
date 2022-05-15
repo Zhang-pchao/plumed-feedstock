@@ -74,16 +74,41 @@ conda config --add channels deepmodeling
 conda config --set channel_priority strict
 ```
 
-Once the `deepmodeling` channel has been enabled, `plumed` can be installed with:
+Once the `deepmodeling` channel has been enabled, `plumed` can be installed with `conda`:
 
 ```
 conda install plumed
 ```
 
-It is possible to list all of the versions of `plumed` available on your platform with:
+or with `mamba`:
+
+```
+mamba install plumed
+```
+
+It is possible to list all of the versions of `plumed` available on your platform with `conda`:
 
 ```
 conda search plumed --channel deepmodeling
+```
+
+or with `mamba`:
+
+```
+mamba search plumed --channel deepmodeling
+```
+
+Alternatively, `mamba repoquery` may provide more information:
+
+```
+# Search all versions available on your platform:
+mamba repoquery search plumed --channel deepmodeling
+
+# List packages depending on `plumed`:
+mamba repoquery whoneeds plumed --channel deepmodeling
+
+# List dependencies of `plumed`:
+mamba repoquery depends plumed --channel deepmodeling
 ```
 
 

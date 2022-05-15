@@ -1,5 +1,5 @@
 {% set name = "plumed" %}
-{% set version = "2.6.2" %}
+{% set version = "2.7.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/plumed/plumed2/archive/v{{ version }}.tar.gz
-  sha256: bbc2ef0cb08d404513b8b737c72333b6656389e15effd6a0f9ace2a5758c9a4a
+  sha256: 6f5dc16a753c71ed719f17f9cbb61642ab8e716fb7f77e22960dfa145c3b8211
   patches:
     - remove-xxd-dep.patch
 
