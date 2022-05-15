@@ -13,7 +13,7 @@ cxx_compiler:
 cxx_compiler_version:
 - '7'
 docker_image:
-- ghcr.io/deepmd-kit-recipes/linux-anvil-cuda:11.3
+- quay.io/condaforge/linux-anvil-cos7-cuda:10.1
 gsl:
 - '2.4'
 mpich:
