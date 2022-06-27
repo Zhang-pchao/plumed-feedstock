@@ -38,6 +38,8 @@ requirements:
     - {{ pin_compatible('mpich') }}
 
 test:
+  requires:
+    - mpich 3.3.2 hc856adb_0
   commands:
     - plumed info --root
     - plumed info --long-version
