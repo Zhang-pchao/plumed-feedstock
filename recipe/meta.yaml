@@ -31,7 +31,7 @@ requirements:
     - llvm-openmp  # [osx]
     #- xdrfile
     - zlib
-    - mpich
+    - mpich 3.3.2 hc856adb_0
   run:
     - {{ pin_compatible('libopenblas') }}
     - llvm-openmp  # [osx]
