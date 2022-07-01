@@ -10,7 +10,7 @@ source:
   sha256: 8357eca6f280125037ad4e7c427f96f2af2f60ddfedce1a2e36e1e1cc3bff32b
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
   skip: True  # [not linux]
 # Most programs should link libplumedWrapper.a so that libplumedKernel.so will be loaded
