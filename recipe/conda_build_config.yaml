@@ -1,13 +1,14 @@
 CONDA_BUILD_SYSROOT:
   - /opt/MacOSX10.9.sdk   # [osx]
 channel_sources:
-- deepmodeling,defaults
+  - deepmodeling,defaults
 channel_targets:
-- deepmodeling main
+  - deepmodeling main
 gsl:
-- 2.4
+  - 2.4
 c_compiler_version:
-- 7
+  - 7
 cxx_compiler_version:
-- 7
-
+  - 7
+libtorch_root:
+  - /home/pengchao/app/pytorch_v1.13.1/libtorch-1.13.1-cxx11-cpu # change to your path
