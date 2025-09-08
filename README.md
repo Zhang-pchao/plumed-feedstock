@@ -1,5 +1,7 @@
 My example of updating plumed-feedstock
-=========================
+
+DeePMD-kit is available with conda. Install Anaconda, Miniconda, or miniforge first. You can refer to DeepModeling conda [FAQ](https://docs.deepmodeling.com/faq/conda.html) for how to setup a conda environment.
+
 If you cannot find conda-build in the base environment, you can install it by running
 ```
 conda install conda-build
@@ -9,12 +11,12 @@ Create test_plumed environment
 ```
 conda create -n test_plumed
 conda activate test_plumed
-conda install deepmd-kit=2.2.2=*gpu libdeepmd=2.2.2=*gpu lammps cudatoolkit=11.6 horovod -c https://conda.deepmodeling.com -c defaults
+conda install deepmd-kit=2.2.6=*gpu libdeepmd=2.2.6=*gpu lammps cudatoolkit=11.6 horovod -c https://conda.deepmodeling.com -c defaults
 ```
 
 Download the Plumed version you want and modify the code as necessary
 ```
-wget https://github.com/plumed/plumed2/releases/download/v2.8.1/plumed-src-2.8.1.tgz
+wget https://github.com/plumed/plumed2/releases/download/v2.8.2/plumed-src-2.8.2.tgz
 cp my_colvar /your_path/plumed/src/colvar  #add new CVS
 ```
 
