@@ -1,4 +1,4 @@
-An instance of updating the Plumed version within the DeePMD-kit Conda environment:
+An instance of updating the Plumed version within the DeePMD-kit (v2) Conda environment:
 
 DeePMD-kit is available with conda. Install Anaconda, Miniconda, or miniforge first. You can refer to DeepModeling conda [FAQ](https://docs.deepmodeling.com/faq/conda.html) for how to setup a conda environment.
 
